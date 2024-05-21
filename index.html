@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <!-- Freeman Font - Google Fonts (fonts.google.com) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
+   
+    <title>Climbing Website</title>
+   
+    <style>
+      /* Styles for Entire Page */
+      * {
+      box-sizing: border-box;
+      }
+      body {
+      margin: 0px;
+        background-color: white;
+        font-family: reddit sans, airal;
+      }
+     
+      /* Styles for Navigation Header - Credits to W3Schools for Example (w3schools.com/css/css_dropdowns.asp) */
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  display: inline-block;
+  width: auto;
+  float: left;
+  text-align: center;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: ghostwhite;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+     
+      /* Styles for Regular Header */
+      #regularHeader {
+      text-align: center;
+        background-image: linear-gradient(43deg,rgba(0,0,300,0.5),rgba(300,0,0,0.5)), url("https://www.urban-xtreme.com.au/wp-content/uploads/2020/09/UX_WEBSITE_IMAGES_CLIMBERS_YOUTH-scaled.jpg");
+        margin-top: -25px;
+        height: 50vh;
+      }
+     
+     
+      /* Styles for Containers */
+      .column {
+  float: left;
+  width: 33.33%;
+  min-height: 300px;
+  padding: 10px;
+  text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+     
+      /* Styles for Footer */
+      footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+   
+    <!-- Navigation Header - Credits to W3Schools for Example (w3schools.com/css/css_dropdowns.asp) -->
+    <header role="banner">
+      <nav role="navigation">
+        <ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Articles</a>
+    <div class="dropdown-content">
+      <a href="#">Bouldering</a>
+      <a href="#">Top Roping</a>
+      <a href="#">Gear Review</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Tools</a>
+    <div class="dropdown-content">
+      <a href="#">Gym Finder</a>
+      <a href="#">Outdoor Map</a>
+    </div>
+  </li>
+</ul>
+      </nav>
+    </header>
+   
+    <!-- Regular Header -->
+    <div id="regularHeader">
+      <h1>Welcome To Climbing Website</h1>
+    </div>
+   
+    <!-- Articles Row -->
+    <div class="row">
+  <div class="column">
+    <h2>Bouldering</h2>
+    <p>Learn the quickest way to jump into climbing... bouldering! Requiring nearly nothing, bouldering is a quick and easy way to get into climbing!</p>
+    <button>Bouldering Articles</button>
+  </div>
+  <div class="column">
+    <h2>Top Roping</h2>
+    <p>Top Roping content...</p>
+    <button>Top Roping Articles</button>
+  </div>
+  <div class="column">
+    <h2>Gear Review</h2>
+    <p>Read reviews on all types of climbing gear from climbers like you!</p>
+    <button>Gear Reviews</button>
+  </div>
+</div>
+   
+    <!-- Tools Row -->
+    <div class="row">
+      <div class="column">
+     
+      </div>
+      <div class="column">
+     
+      </div>
+    </div>
+   
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <p>&copy;2024 NWS & Narboleda</p>
+    </footer>
+  </body>
+</html>
