@@ -20,8 +20,6 @@ background-color: white;
 li {
 display: inline-block;
 width: auto;
-float: left;
-text-align: center;
 }
 
 li a, .dropbtn {
