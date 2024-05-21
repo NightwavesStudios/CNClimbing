@@ -1,2 +1,4 @@
 # CNClimbing
-A climbing website...
+A climbing website developed by Chris (NightwavesStudios) and Nico (Narboleda).
+
+##Purpose
