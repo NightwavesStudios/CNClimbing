@@ -83,6 +83,9 @@ content: "";
 display: table;
 clear: both;
 }
+button .row {
+width: 100%;
+}
 @media (max-width: 600px) {
 .column {
   width: 100%;
