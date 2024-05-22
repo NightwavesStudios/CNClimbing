@@ -81,6 +81,9 @@ text-align: center;
 .width50 {
 width: 50% !important;
 }
+.width100 {
+width: 100% !important;
+}
 .row:after {
 content: "";
 display: table;
