@@ -86,10 +86,10 @@ clear: both;
 .row button {
 width: 100%;
 border-radius: 5px;
-height: 40px;
+height: 40px !important;
 background-color: white;
 color: black;
-border: none;
+border: none !important;
 }
 .row button:hover {
   background-color: orange;
