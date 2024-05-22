@@ -94,8 +94,8 @@ background-color: orange;
 }
 .row button:hover {
   transition-duration: 0.4s;
+  border: 3px solid orange !important;
   background-color: white;
-border: 3px solid orange;
   color: black;
 }
 @media (max-width: 600px) {
