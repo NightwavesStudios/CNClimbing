@@ -83,7 +83,7 @@ content: "";
 display: table;
 clear: both;
 }
-button .row {
+.row button {
 width: 100%;
 }
 @media (max-width: 600px) {
