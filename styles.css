@@ -89,11 +89,12 @@ border-radius: 5px;
 height: 40px !important;
 background-color: white;
 color: black;
-transition-duration: 0.4s;
-border: 5px solid orange;
+background-color: orange;
 }
 .row button:hover {
-  background-color: orange;
+ 
+  transition-duration: 0.4s;
+border: 3px solid orange;
   color: white;
 }
 @media (max-width: 600px) {
