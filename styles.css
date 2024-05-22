@@ -93,9 +93,8 @@ border: none !important;
 background-color: orange;
 }
 .row button:hover {
- 
   transition-duration: 0.4s;
-  background-color: white;
+  background-color: transparent;
 border: 3px solid orange;
   color: white;
 }
