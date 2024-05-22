@@ -91,6 +91,10 @@ background-color: orange;
 color: black;
 border: none;
 }
+.row button:hover {
+  background-color: orange;
+  color: white;
+}
 @media (max-width: 600px) {
 .column {
   width: 100%;
