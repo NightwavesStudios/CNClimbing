@@ -90,7 +90,7 @@ height: 40px !important;
 background-color: white;
 color: black;
 transition-duration: 0.4s;
-border: 5px orange;
+border: 5px solid orange;
 }
 .row button:hover {
   background-color: orange;
