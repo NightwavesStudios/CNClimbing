@@ -79,7 +79,7 @@ padding: 10px;
 text-align: center;
 }
 .width50 {
-width: 50%;
+width: 50% !important;
 }
 .row:after {
 content: "";
