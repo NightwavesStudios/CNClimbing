@@ -89,7 +89,8 @@ border-radius: 5px;
 height: 40px !important;
 background-color: white;
 color: black;
-border: none !important;
+transition-duration: 0.4s;
+border: 5px orange;
 }
 .row button:hover {
   background-color: orange;
