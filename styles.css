@@ -94,9 +94,8 @@ background-color: orange;
 }
 .row button:hover {
   transition-duration: 0.4s;
-  background-color: transparent;
 border: 3px solid orange;
-  color: white;
+  color: black;
 }
 @media (max-width: 600px) {
 .column {
