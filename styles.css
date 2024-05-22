@@ -85,6 +85,9 @@ clear: both;
 }
 .row button {
 width: 100%;
+height: 20px;
+background-color: orange;
+color: black;
 }
 @media (max-width: 600px) {
 .column {
