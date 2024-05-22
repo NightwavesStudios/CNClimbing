@@ -78,6 +78,9 @@ min-height: 300px;
 padding: 10px;
 text-align: center;
 }
+.width50 {
+width: 50%;
+}
 .row:after {
 content: "";
 display: table;
@@ -93,8 +96,8 @@ border: none !important;
 background-color: orange;
 }
 .row button:hover {
-  transition-duration: 0.4s;
   border: 3px solid orange !important;
+  transition-duration: 0.4s;
   background-color: white;
   color: black;
 }
