@@ -120,6 +120,9 @@ background-color: orange;
 .width50 {
   width: 100% !important;
 }
+.width25 {
+  width: 50% !important;
+}
 }
    
     /* Styles for Footer */
