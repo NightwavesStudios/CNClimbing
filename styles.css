@@ -121,7 +121,8 @@ background-color: orange;
   width: 100% !important;
 }
 .width25 {
-  width: 50% !important;
+  width: 49% !important;
+  padding: 0.5% !important;
 }
 }
    
