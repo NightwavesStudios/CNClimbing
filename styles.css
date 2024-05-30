@@ -111,10 +111,10 @@ background-color: orange;
 }
 @media (max-width: 600px) {
 .column {
-  width: 100%;
+  width: 100% !important;
 }
 .width50 {
-  width: 100%;
+  width: 100% !important;
 }
 }
    
