@@ -82,6 +82,10 @@ text-align: center;
 background-color:aliceblue;
 margin: 0.11%;
 }
+.width25 {
+width: 24% !important;
+margin: 0.25% !important;
+}
 .width50 {
 width: 49% !important;
 margin: 0.5% !important;
