@@ -21,6 +21,7 @@ background-color: white;
 li {
 display: inline-block;
 width: auto;
+padding: 16px 16px !important;
 }
 
 li a, .dropbtn {
