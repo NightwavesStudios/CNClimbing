@@ -28,6 +28,7 @@ display: inline-block;
 color: black;
 text-align: center;
 padding: 14px 16px;
+border: 1px solid black;
 text-decoration: none;
 }
 
