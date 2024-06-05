@@ -27,7 +27,7 @@ li a, .dropbtn {
 display: inline-block;
 color: black;
 text-align: center;
-padding: 14px 14px;
+padding: 10px 16px;
 border: 1px solid red;
 text-decoration: none;
 }
