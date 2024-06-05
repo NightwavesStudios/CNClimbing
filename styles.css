@@ -1,7 +1,9 @@
 /* Styles for Entire Page */
 * {
     box-sizing: border-box;
+    overflow-y: hidden;
     }
+
     body {
     margin: 0px;
       background-color: white;
