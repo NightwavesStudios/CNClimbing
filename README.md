@@ -2,8 +2,11 @@
 ## Description
 A climbing website developed by Chris (NightwavesStudios) and Nico (Narboleda).
 
-## Documentation
+## Purpose
 
-### Images
-All images in containers should be measured to and cropped to a certain width and height to prevent from staggered containers.
+### Mission Statement
+Our website is dedicated to helping people find the addicting sport of climbing, and participate in it in a fun way.
+
+### Slogan
+NaN
 
