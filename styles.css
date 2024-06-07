@@ -73,6 +73,11 @@ display: block;
       margin-top: -25px;
       height: 50vh;
     }
+    #regularHeader h1 {
+      position: relative;
+      font-size: 30px;
+      top: calc(25vh - 30px);
+    }
    
    
     /* Styles for Containers */
