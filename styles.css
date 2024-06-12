@@ -133,6 +133,10 @@ li.dropdown {
 	color: black;
 }
 
+.column img {
+	max-height: 50vh; 
+}
+
 @media (max-width: 600px) {
 	.column {
 		width: 100% !important;
