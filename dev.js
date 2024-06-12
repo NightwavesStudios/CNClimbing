@@ -80,7 +80,7 @@ var dev = {
             try {
                 var KAC = this
                 var f = function () {
-                    if((p.includes("KAConsole.resetOutput()"))||(p.includes("KAConsole.reset()"))) {
+                    if((p.includes("dev.resetOutput()"))||(p.includes("dev.reset()"))) {
                         eval(p.trim())
                     } else {
                         KAC.log(eval(p.trim()))
@@ -205,7 +205,7 @@ var dev = {
     bindShowHide: function(keyCode) {
         document.body.addEventListener("keydown",function(k) {
             if(k.keyCode===keyCode) {
-                KAConsole.hidden?KAConsole.show():KAConsole.hide()
+                dev.hidden?dev.show():dev.hide()
             }
         })
     },
