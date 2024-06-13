@@ -126,13 +126,6 @@ li.dropdown {
 	background-color: orange;
 }
 
-.row button:hover {
-	border: 3px solid orange !important;
-	transition-duration: 0.4s;
-	background-color: white;
-	color: black;
-}
-
 .column img {
 	max-height: 50vh; 
 }
