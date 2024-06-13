@@ -126,6 +126,11 @@ li.dropdown {
 	background-color: orange;
 }
 
+.row button:hover {
+	background-color: #ff9000;
+	transition: 0.4s;
+}
+
 .column img {
 	max-height: 50vh; 
 }
