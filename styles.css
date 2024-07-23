@@ -132,6 +132,7 @@ li.dropdown {
 
 .row button:hover {
 	background-color: #ff9000;
+	cursor: pointer;
 	transition: 0.4s;
 }
 
