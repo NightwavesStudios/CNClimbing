@@ -71,6 +71,9 @@ li.dropdown {
 #regularHeader {
 	text-align: center;
 	background-image: linear-gradient(43deg, rgba(0, 0, 300, 0.5), rgba(300, 0, 0, 0.5)), url("../assets/images/header.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: -25px;
 	height: 50vh;
